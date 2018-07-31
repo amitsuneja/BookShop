@@ -2,9 +2,10 @@
 Book shop project that manages inbound, outbound of books including shelfing, checkout, etc
 """
 
+
 class book:
 
-    def __init__(self, b_isbn, b_name, b_lang, b_origin, b_authors, b_version, b_price):
+    def __init__(self, b_isbn: str, b_name: int,  b_lang: str, b_origin: str, b_authors: list, b_version: str, b_price: float) -> object:
         """
         This class is used to create book objects
             :param b_isbn: Integer - Unique book identification number
