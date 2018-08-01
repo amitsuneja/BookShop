@@ -23,3 +23,10 @@ class book:
         self.b_authors = b_authors  # List
         self.b_version = b_version  # String
         self.b_price = b_price  # Float
+        self.b_counter = 1
+
+    def incrementCounter(self):
+        self.b_counter += 1
+
+    def decrementCounter(self):
+        self.b_counter -= 1
